@@ -1,3 +1,7 @@
+body {
+    font: Arial, Helvetica, sans-serif;
+}
+
 #container {
     width: 1050px;
     margin: 0 auto;
@@ -34,7 +38,7 @@
     font-size: 15px;
     color: #e36a0c;
     background: white url(../img/search.png) right center no-repeat;
-
+    border: 1px solid #c8d03e;
 }
 
 .submit-btn {
@@ -158,4 +162,11 @@ ul {
 #right-sidebar li {
    padding-left: 10px;
    list-style-image: url(/img/tick.png) ;
+}
+
+.footer {
+    margin-top: 15px;
+    height: 60px;
+    padding: 10px 30px;
+    background: linear-gradient(#f6f390, #d5d533);
 }
