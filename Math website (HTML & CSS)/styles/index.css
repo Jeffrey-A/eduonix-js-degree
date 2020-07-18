@@ -142,12 +142,20 @@ ul {
     font-weight: bold;
 }
 
-#left-sidebar ul {
+.sidebar ul {
     padding-top: 8px;
 }
 
+.sidebar li {
+    padding-bottom: 6px;
+}
+
 #left-sidebar li {
-   padding-bottom: 6px;
    padding-left: 10px;
    list-style-image: url(/img/right-arrow.png) ;
+}
+
+#right-sidebar li {
+   padding-left: 10px;
+   list-style-image: url(/img/tick.png) ;
 }
