@@ -1,7 +1,6 @@
 #container {
     width: 1050px;
     margin: 0 auto;
-    border: 1px solid;
 }
 
 .home-link {
@@ -91,3 +90,20 @@
    border-right: 1px solid;
 }
 
+#intro {
+    margin: 16px 0;
+    padding: 20px 20px;
+    background: linear-gradient(#e5f2bb, #b7e952)
+}
+
+#intro h3 {
+    font-size: 45px;
+    color: #316901;
+    font-weight: normal;
+}
+
+#intro p {
+    font-size: 25px;
+    color: #628F19;
+    text-align: justify;
+}
