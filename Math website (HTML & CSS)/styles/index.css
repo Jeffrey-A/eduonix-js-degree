@@ -56,7 +56,7 @@
     background: linear-gradient(#fbf594, #d5d533);
 }
 
-.menu-ul {
+ul {
     list-style: none;
 }
 
@@ -106,4 +106,48 @@
     font-size: 25px;
     color: #628F19;
     text-align: justify;
+}
+
+.sidebar {
+    height: 500px;
+    width: 450px;
+    border: 1px solid #baf46f;
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+
+.sidebar h3 {
+    color: #b314db;
+    font-size: 30px;
+}
+
+#left-sidebar {
+    float: left;
+}
+
+#right-sidebar {
+    float: right;
+}
+
+.sidebar a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #5d12e7;
+    transition: font-size 0.3s ease;
+}
+
+.sidebar a:hover {
+    color: #b314db;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#left-sidebar ul {
+    padding-top: 8px;
+}
+
+#left-sidebar li {
+   padding-bottom: 6px;
+   padding-left: 10px;
+   list-style-image: url(/img/right-arrow.png) ;
 }
