@@ -1,0 +1,188 @@
+body {
+    font: Arial, Helvetica, sans-serif;
+}
+
+#container {
+    width: 1050px;
+    margin: 0 auto;
+}
+
+.home-link {
+    text-decoration: none;
+    color: #861BBF;
+    font-weight: 100;
+}
+
+#header {
+    height: 100px;
+    padding: 10px 0;
+}
+
+#brand {
+    float:left;
+}
+
+#searchBox {
+    margin-top: 20px;
+    padding: 20px 20px 0 20px;
+    float: right;
+    width: 400px;
+    height: 50px;
+    background: linear-gradient(#e4f2B9, #b7e953 );
+}
+
+.input-text {
+    float: left;
+    width: 200px;
+    padding: 5px;
+    font-size: 15px;
+    color: #e36a0c;
+    background: white url(../img/search.png) right center no-repeat;
+    background: white url(../img/search.png) right center no-repeat;
+    background: white url(../img/search.png) right center no-repeat;
+    background: white url(../img/search.png) right center no-repeat;
+    background: white url(../img/search.png) right center no-repeat;
+    border: 1px solid #c8d03e;
+}
+
+.submit-btn {
+    float: right;
+    background: #861BBF;
+    font-weight: bold;
+    color: white;
+    font-size: 15px;
+}
+
+.clear {
+    clear: both;
+}
+
+#menu {
+    padding: 7px 0;
+    margin: 0 auto;
+    height: 70px;
+    background: -webkit-linear-gradient(#fbf594, #d5d533);
+    background: -o-linear-gradient(#fbf594, #d5d533);
+    background: -moz-linear-gradient(#fbf594, #d5d533);
+    background: -ms-linear-gradient(#fbf594, #d5d533);
+    background: linear-gradient(#fbf594, #d5d533);
+}
+
+ul {
+    list-style: none;
+}
+
+.menu-ul a {
+    text-decoration: none;
+    color: #5d12e7;
+    font-size: 17px;
+    text-transform: uppercase;
+    line-height: 30px;
+    -webkit-transition: font-size 0.3s ease; /*property when to apply the transition, the duration, effect*/
+    -moz-transition: font-size 0.3s ease; 
+    -o-transition: font-size 0.3s ease; 
+    -ms-transition: font-size 0.3s ease; 
+    transition: font-size 0.3s ease; 
+}
+
+.menu-ul li:last-child {
+    border-right: none;
+}
+
+.menu-ul a:hover, a.active {
+    font-size: 20px;
+    font-weight: bold;
+    color: #861BBF;
+}
+
+.menu-ul li {
+   float:left;
+   padding: 0 30px;
+   height: 30px;
+   border-right: 1px solid;
+}
+
+#intro {
+    margin: 16px 0;
+    padding: 20px 20px;
+    background: -o-linear-gradient(#e5f2bb, #b7e952);
+    background: -ms-linear-gradient(#e5f2bb, #b7e952);
+    background: -moz-linear-gradient(#e5f2bb, #b7e952);
+    background:  -webkit-linear-gradient(#e5f2bb, #b7e952);
+    background: linear-gradient(#e5f2bb, #b7e952);
+}
+
+#intro h3 {
+    font-size: 45px;
+    color: #316901;
+    font-weight: normal;
+}
+
+#intro p {
+    font-size: 25px;
+    color: #628F19;
+    text-align: justify;
+}
+
+.sidebar {
+    height: 500px;
+    width: 450px;
+    border: 1px solid #baf46f;
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+
+.sidebar h3 {
+    color: #b314db;
+    font-size: 30px;
+}
+
+#left-sidebar {
+    float: left;
+}
+
+#right-sidebar {
+    float: right;
+}
+
+.sidebar a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #5d12e7;
+    transition: font-size 0.3s ease;
+}
+
+.sidebar a:hover {
+    color: #b314db;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.sidebar ul {
+    padding-top: 8px;
+}
+
+.sidebar li {
+    padding-bottom: 6px;
+}
+
+#left-sidebar li {
+   padding-left: 10px;
+   list-style-image: url(/img/right-arrow.png) ;
+}
+
+#right-sidebar li {
+   padding-left: 10px;
+   list-style-image: url(/img/tick.png) ;
+}
+
+.footer {
+    margin-top: 15px;
+    height: 60px;
+    padding: 10px 30px;
+    background: -o-linear-gradient(#f6f390, #d5d533);
+    background: -webkit-linear-gradient(#f6f390, #d5d533);
+    background:  -moz-linear-gradient(#f6f390, #d5d533);
+    background:  -ms-linear-gradient(#f6f390, #d5d533);
+    background: linear-gradient(#f6f390, #d5d533);
+}
